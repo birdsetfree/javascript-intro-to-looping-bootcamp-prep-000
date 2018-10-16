@@ -21,7 +21,7 @@ function doWhileLoop(array) {
 
 function forLoop(array) {
   while(i<26) {
-    array.slice(1,"I am ${i} strange loop${i === 0 ? '' : 's'}.")
+    array.slice(1,i,"I am ${i} strange loop${i === 0 ? '' : 's'}.")
     incrementVariable();
   }
 }
